@@ -101,16 +101,16 @@ body {
     padding: 16px; 
 }
 
-.border-bottom { 
+.wd-border-bottom { 
     border-bottom: solid;
     border-width: 3px;
 }
 
-.unselected {
+.wd-unselected {
     color: rgb(110, 118, 125);
 }
 
-.selected {
+.wd-selected {
     color:rgb(29,161,242); 
 }
 
