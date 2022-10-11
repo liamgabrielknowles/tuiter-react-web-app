@@ -117,3 +117,12 @@ body {
 .wd-normal-margin-left {
     margin-left: 16px;
 }
+
+.wd-list-item-min-height {
+    min-height: 60px; 
+}
+
+.wd-list-item-side-img {
+    width: 15%;
+    min-width: 40px;
+}
