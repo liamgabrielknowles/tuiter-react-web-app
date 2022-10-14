@@ -126,3 +126,8 @@ body {
     width: 15%;
     min-width: 40px;
 }
+
+.wd-text-position {
+    bottom: 8px;
+    left: 25px;
+}
