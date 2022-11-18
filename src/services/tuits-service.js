@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import axios from 'axios';
 const TUITS_API = 'http://3.83.89.199:4000/api/tuits';
 
