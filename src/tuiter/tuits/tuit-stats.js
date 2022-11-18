@@ -10,9 +10,10 @@ const TuitStats = ({tuit}) => {
         </div>
         <div className="col">
             {/* find inline lgoical operator jsx? */}
-          {tuit.liked &&<i className="bi me-1 bi-heart-fill text-primary"></i>}
-          {!tuit.liked &&<i className="bi bi-heart me-1"></i>}
-          {tuit.likes}
+        <div>
+          Likes: {tuit.likes}
+          <i className="bi bi-heart-fill me-2 text-danger"></i>
+        </div>
         </div>
         <div className="col">
           <i className="bi bi-share"></i>
