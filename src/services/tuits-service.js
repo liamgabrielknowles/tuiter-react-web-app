@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import axios from 'axios';
-const TUITS_API = 'http://3.83.89.199:4000/api/tuits';
+const TUITS_API = 'https://3.83.89.199:4000/api/tuits';
 
 export const createTuit = async (tuit) => {
     const response = await axios.post(TUITS_API, tuit)
